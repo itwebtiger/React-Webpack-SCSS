@@ -1,0 +1,29 @@
+{
+  "presets": [
+    "react",
+    [
+      "env",
+      {
+        "modules": "commonjs",
+        "targets": {
+          "browsers": ["last 2 versions"]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "syntax-dynamic-import",
+    "transform-decorators-legacy",
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "react-hot-loader/babel",
+    ["transform-runtime", { "polyfill": false }]
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "react-hot-loader/babel"
+      ]
+    }
+  }
+}

@@ -1,1 +1,1 @@
-# React-Webpack-SCSS
+# react-webpack-scss-sample
