@@ -1,0 +1,201 @@
+.login-tab {
+	text-align: center;
+	padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.login-tab ul.nav.nav-tabs > li, ul.nav.nav-pills > li {
+  float:none;
+  display:inline-block;
+}
+.login-tab ul.nav.nav-tabs {
+  text-align:center;
+}
+.login-tab .nav.nav-tabs >li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  cursor: default;
+  background-color: $main-background-color;;
+  border-bottom: 2px solid #1d2fb5;
+  padding: 15px 20px 0px 20px;
+  outline: 0px;
+  font-family: $ubuntu-light;
+  font-size: $size-20;
+  color: #1d2fb5;
+  text-decoration: none solid $main-decoration-color;
+  width: 120px;
+}
+.login-tab .nav.nav-tabs >li>a, .nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
+  cursor: default;
+  background-color: $main-background-color;
+  border: none;
+  margin: 0;
+  padding: 15px 20px 0px 20px;
+  outline: 0px;
+  font-family: $ubuntu-light;
+  font-size: $size-20;
+  color: #1d2fb5;
+  text-decoration: none solid $main-decoration-color;
+  width: 120px;
+  cursor: pointer;
+}
+.login-tab .nav.nav-tabs {
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom: 1px solid $light-gray-color;
+  background-color: $main-background-color;
+  text-align: left;
+}
+.logout-button {
+	width: 43px;
+	height: 43px;
+	fill: $light-gray-color;
+	background-image: url("../assets/images/logout.svg");
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: none;
+	background-size: contain;
+}
+.logout-button:active,
+.logout-button:hover,
+.logout-button:focus,
+.logout-button:active:focus {
+	outline: none;
+}
+.close-button {
+	width: 43px;
+	height: 43px;
+	fill: $light-gray-color;
+	background-image: url("../assets/images/close.svg");
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: none;
+	background-size: contain;
+}
+.close-button:active,
+.close-button:hover,
+.close-button:focus,
+.close-button:active:focus {
+	outline: none;
+}
+.login-title {
+  font-family: $ubuntu-bold;
+  font-size: $size-32;
+  color: $main-blue-color;
+  text-decoration: none solid $main-decoration-color;
+  background: none;
+  padding-top: 20px;
+}
+.login-layout {
+	min-height: 100vh;
+	margin: 0;
+	width: 100%;
+	background: $main-background-color;
+}
+.email-input {
+	width: 339px;
+	height: 43px;
+	padding: 0px 10px;
+	border: 1px solid $light-gray-color;
+	border-radius: 5px;
+	background-color: $white-color;
+	font-family: $ubuntu-regular;
+	font-size: $size-14;
+	color: $light-gray-color;
+	text-decoration: none solid $main-decoration-color;
+	line-height: 14px;
+}
+.forgot-text {
+	font-family: $ubuntu-regular;
+	font-size: $size-16;
+	color: #1d2fb5;
+	text-decoration: none solid $main-decoration-color;
+	background: none;
+	border: none;
+}
+.forgot-text:active,
+.forgot-text:hover,
+.forgot-text:focus,
+.forgot-text:active:focus {
+	outline: none;
+}
+.login-button {
+	width: 100px;
+	height: 34px;
+	padding: 6px 10px;
+	background-color: $white-color;
+	font-family: $ubuntu-regular;
+	font-size: $size-14;
+	color: #1d2fb5;
+	text-decoration: none solid $main-decoration-color;
+	text-align: center;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	border: none;
+	border-radius: 0;
+}
+.login-button:active,
+.login-button:hover,
+.login-button:focus,
+.login-button:active:focus {
+	outline: 0;
+}
+.signup-email-input {
+	width: 200px;
+	height: 43px;
+	padding: 0px 10px;
+	border: 1px solid $light-gray-color;
+	border-radius: 5px;
+	background-color: $white-color;
+	font-family: $ubuntu-regular;
+	font-size: $size-14;
+	color: $light-gray-color;
+	text-decoration: none solid $main-decoration-color;
+	line-height: 14px;	
+}
+.signup-role-input {
+	width: 200px;
+	padding-top: 0px;
+	font-family: $ubuntu-regular;
+	font-size: $size-14;
+	color: $light-gray-color;
+	text-decoration: none solid $main-decoration-color;
+	line-height: 14px;	
+	text-align: left;
+}
+.signup-title {
+  font-family: $ubuntu-light;
+  font-size: $size-16;
+  color: #1d2fb5;
+  text-decoration: none solid $main-decoration-color;
+  background: none;
+}
+.is-open .Select-arrow .Select-arrow-zone:hover > .Select-arrow{
+	border-top-color: $light-gray-color !important;
+}
+.is-open > .Select-arrow .Select-arrow{
+	top: -2px;
+	border-color: $light-gray-color transparent transparent !important;
+	border-width: 0 5px 5px;
+}
+.Select-clear-zone {
+	color: $light-gray-color !important;
+}
+.Select-control {
+	height: 43px !important;
+	border: 1px solid $light-gray-color !important;
+	border-radius: 5px;
+}
+.has-value.Select--single > .Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+	color: $light-gray-color !important;
+	padding-top: 5px !important;
+}
+.Select-placeholder, .Select--single > .Select-control .Select-value {
+	line-height: 43px !important;
+}
+.border-view {
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid $light-gray-color;
+}

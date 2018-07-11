@@ -1,0 +1,11 @@
+.dashboard-container {
+  overflow: hidden;
+	width: $full-width;
+	background-color: $main-background-color;
+	padding: $size-0;
+	> .row {
+		margin: 0;
+		transform: translateZ(0);
+		min-height: calc(100vh - 60px);
+	}
+}

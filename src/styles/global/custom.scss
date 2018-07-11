@@ -1,0 +1,31 @@
+.btn-group.open .dropdown-toggle {
+  box-shadow: none;
+}
+.custom-table {
+	height: 103px;
+	background: white;
+  font-family: $ubuntu-regular;
+  font-size: $size-16;
+  color: #1d2fb5;
+  text-decoration: none solid $main-decoration-color;
+}
+.custom-table td {
+  text-align: center;
+	outline: none;
+	border-bottom: 1px solid $light-gray-color;
+}
+.react-bs-container-footer, .react-bs-container-header {
+	background: white;
+}
+.custom-table-header {
+  font-family: $ubuntu-regular;
+  font-size: $size-16;
+	color: $main-blue-color;
+}
+.custom-table-header .sort-column {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+.cursor-pointer {
+	cursor: pointer;
+}

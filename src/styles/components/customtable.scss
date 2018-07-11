@@ -1,0 +1,155 @@
+.add-button {
+  background: $main-blue-color;
+  display: inline-block;
+  padding: 6px 10px;
+	cursor: pointer;
+	box-shadow: 0 1px 2px $black-color;
+}
+.plus-icon {
+  width: 22px;
+  height: 22px;
+}
+.delete-button {
+  background: #d42920;
+  display: inline-block;
+  padding: 6px 10px;
+	cursor: pointer;
+	box-shadow: 0 1px 2px $black-color;
+}
+.merge-button {
+  background: $main-blue-color;
+  display: inline-block;
+  padding: 6px 10px;
+  cursor: pointer;
+	margin-right: 10px;
+	box-shadow: 0 1px 2px $black-color;
+}
+.button-text {
+  font-family: $ubuntu-light;
+  font-size: $size-14;
+  color: $white-color;
+  text-decoration: none solid $white-color;
+  text-align: center;
+  background: none;
+}
+.pageList-style {
+	margin-top: 0px;
+}
+.pageList-style .pagination .page-item .page-link {
+  font-family: $lato-regular;
+  font-size: $size-14;
+  color: $black-color;
+  text-decoration: none solid rgb(0, 0, 0);
+  text-align: center;
+  border: none;
+}
+.pageList-style .pagination .active.page-item .page-link {
+  font-family: $lato-regular;
+  font-size: $size-14;
+  color: $white-color;
+  text-decoration: none solid rgb(0, 0, 0);
+  text-align: center;
+  border: none;
+  border-radius: 0px;
+  background: #2199e8;
+}
+.setTablePageList-style {
+	text-align: center;
+	margin-top: 0px;
+}
+.setTablePageList-style .pagination .page-item .page-link {
+  font-family: $lato-regular;
+  font-size: $size-14;
+  color: $black-color;
+  text-decoration: none solid rgb(0, 0, 0);
+  text-align: center;
+  border: none;
+}
+.setTablePageList-style .pagination .active.page-item .page-link {
+  font-family: $lato-regular;
+  font-size: $size-14;
+  color: $white-color;
+  text-decoration: none solid rgb(0, 0, 0);
+  text-align: center;
+  border: none;
+  border-radius: 0px;
+  background: #2199e8;
+}
+.left-button-view {
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+}
+.right-button-view {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+.button-group-custom-class {
+  width: 100%;
+  display: inline-block;
+}
+.sort-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.product-data-cell {
+	display: flex;
+	flex-direction: row;
+}
+.productName {
+	font-family: $ubuntu-regular;
+	font-size: $size-16;
+	color: #1d2fb5;
+	text-decoration: none solid $main-decoration-color;
+	white-space: nowrap;
+	text-overflow: ellipsis;    
+	max-width: 400px;
+	overflow: hidden;
+}
+.product-custom-title {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	text-align: left;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+.variantTitle {
+	font-family: $ubuntu-regular;
+	font-size: $size-12;
+	color: $black-color;
+	text-decoration: none solid rgb(0, 0, 0);
+	text-align: left;
+	padding-top: 1px;
+}
+.channelNumberText {
+	font-family: $ubuntu-regular;
+	font-size: $size-12;
+	color: #c8c8c8;
+	text-decoration: none solid rgb(200, 200, 200);
+	padding-top: 3px;
+}
+.productImage {
+	padding-top: 10px;
+	width: 85px;
+}
+.stock-data-cell {
+	padding-top: 25px;
+}
+.stock-on-hand-cell {
+	padding-top: 25px;
+	text-align: center;
+}
+.stock-unit-view {
+	width: 50%;
+}
+.stock-on-hand-header {
+	display: flex;
+	flex-direction: row;
+}
+.rightArrow {
+	width: 32px;
+	height: 32px;
+}

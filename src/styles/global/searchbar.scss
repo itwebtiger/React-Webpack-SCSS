@@ -1,0 +1,54 @@
+.search-input {
+  padding: 10px 10px;
+  height: 69px;
+  position: relative;
+}
+
+.search-input::before {
+  content: url('../assets/images/explore.svg');
+  display: block;
+  position: absolute;
+  width: 30px;
+  z-index: 3;
+  height: 15px;
+  font-size: $size-20;
+  top: 31px;
+  left: 20px;
+  line-height: 32px;
+  opacity: 1.0;
+}
+
+.search-input > input {
+  width: 100%;
+  border: 1px solid $light-gray-color;
+  border-radius: 5px;
+  line-height: 22px;
+  padding: 5px 10px 5px 50px;
+  height: 69px;
+  position: relative;
+  color: $light-gray-color;
+  font-family: $ubuntu-regular;
+  font-size: $size-20;
+}
+
+.search-input > input:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:$light-gray-color;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:$light-gray-color;
+  opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:$light-gray-color;
+  opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:$light-gray-color;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color:$light-gray-color;
+}

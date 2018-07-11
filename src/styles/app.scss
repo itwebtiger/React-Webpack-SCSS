@@ -1,0 +1,9 @@
+// Import all styles
+$fa-font-path: "~/assets/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+@import "~react-select/scss/default.scss";
+@import "~sweetalert/dev/sweetalert.scss";
+@import "./global/index"; // Global Styles
+@import "./base/index"; // Base Styles
+@import "./routes/index"; // Routes Styles
+@import "./components/index"; // Components Styles

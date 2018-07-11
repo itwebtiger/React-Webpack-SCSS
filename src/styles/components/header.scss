@@ -1,0 +1,39 @@
+.feature-text {
+	font-family: $ubuntu-regular;
+	font-size: $size-16;
+	color: $white-color;
+	text-decoration: none solid $white-color;
+	background: none;
+	border: none;
+  background-image: none;
+  border-radius: 0px;
+  border-width: 0px;
+	box-shadow: none !important;
+	outline: none;
+}
+.feature-text:active,
+.feature-text:hover,
+.feature-text:focus,
+.feature-text:active:focus {
+	outline: none;
+}
+.signup-button-text {
+	width: 90px;
+	height: 36px;
+	background-color: #5bc0de;
+	background-repeat: no-repeat;
+	font-family: $ubuntu-regular;
+	font-size: $size-14;
+	color: $white-color;
+	text-decoration: none solid rgba(255, 255, 255, 0.84);
+	text-align: center;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	border: none;
+	border-radius: 0;
+}
+.signup-button-text:active,
+.signup-button-text:hover,
+.signup-button-text:focus,
+.signup-button-text:active:focus {
+	outline: none;
+}

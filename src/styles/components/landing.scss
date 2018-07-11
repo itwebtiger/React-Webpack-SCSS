@@ -1,0 +1,334 @@
+
+.large-title {
+	font-family: $ubuntu-bold;
+	font-size: $size-32;
+	color: $white-color;
+	text-decoration: none solid $white-color;
+	text-align: center;
+}
+.middle-title {
+	width: 680px !important;
+	height: 36px;
+	font-family: $ubuntu-regular;
+	font-size: $size-16;
+	color: $white-color;
+	text-decoration: none solid $white-color;
+	text-align: center;
+	width: 100%;
+}
+.main-layout {
+	width: 100%;
+	background-image: linear-gradient(135deg, #1d2fb5 2%, rgba(9, 14, 112, 0.25) 100% );
+	background-position: center center;
+}
+.top-border {
+	padding-top: 20px;
+}
+.padding-header {
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 20px;
+}
+.company-title {
+	font-family: $ubuntu-light;
+	font-size: $size-16;
+	color: $main-blue-color;
+	text-decoration: none solid $main-decoration-color;
+	background: none;
+}
+.contact-title {
+	font-family: $ubuntu-light;
+	font-size: $size-16;
+	color: $main-blue-color;
+	text-decoration: none solid $main-decoration-color;
+	background: none;
+	padding: 0;
+}
+.header-title {
+	font-family: $ubuntu-bold;
+	font-size: $size-32;
+	color: $main-blue-color;
+	text-decoration: none solid $main-decoration-color;
+	background: none;
+	padding: 0;
+}
+.headerIcon {
+	width: 23px;
+	height: 23px;
+}
+.logo-title {
+	font-family: $ubuntu-bold;
+	font-size: $size-32;
+	color: $white-color;
+	text-decoration: none solid $main-decoration-color;
+	background: none;
+	padding-top: 20px;
+	display: block;
+	text-align: left;
+	padding-left: 5px;
+}
+.landing-email-input {
+	width: 40%;
+	height: 43px;
+	padding: 0px 10px;
+	border: 1px solid $light-gray-color;
+	border-radius: 5px;
+	background-color: $white-color;
+	font-family: $ubuntu-regular;
+	font-size: $size-14;
+	color: $light-gray-color;
+	text-decoration: none solid $main-decoration-color;
+	line-height: 14px;
+	margin-top: 10px;
+}
+.shopify-landing-icon {
+	width: 81px;
+	height: 23px;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+.small-title {
+	font-family: $ubuntu-light;
+	font-size: $size-16;
+	color: $white-color;
+	text-decoration: none solid $white-color;
+	text-align: center;
+	vertical-align: bottom;
+}
+.invite-text {
+	font-family: $ubuntu-light;
+	font-size: $size-24;
+	color: $white-color;
+	text-decoration: none solid $white-color;
+	text-align: center;
+}
+.invite-button {
+	width: 146px;
+	height: 43px;
+	padding: 6px 10px;
+	border-radius: 5px;
+	background-color: #e8e8e8;
+	font-family: $ubuntu-regular;
+	font-size: $size-14;
+	color: #1d2fb5;
+	text-decoration: none solid $main-decoration-color;
+	text-align: center;
+	box-shadow: 0 1px 2px $black-color;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.recapture-text {
+	font-family: $ubuntu-light;
+	font-size: $size-24;
+	color: $white-color;
+	text-decoration: none solid $white-color;
+	text-align: center;
+	margin-top: 70px;
+}
+.landing-image-one {
+	width: 100%;
+	height: auto;
+}
+.landing-image-two {
+	width: 100%;
+	height: auto;
+}
+.landing-image-three {
+	width: 100%;
+	height: auto;
+}
+.inventory-text {
+	font-family: $ubuntu-light;
+	font-size: $size-24;
+	color: $white-color;
+	text-decoration: none solid $white-color;
+	text-align: center;
+	margin-top: 90px;
+}
+.sale-text-one {
+	width: 100%;
+	height: 58px;
+	font-family: $ubuntu-regular;
+	font-size: $size-16;
+	color: $white-color;
+	text-decoration: none solid $white-color;
+	text-align: center;
+	margin: 10px;
+}
+.email-view {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.seek-text {
+	font-family: $ubuntu-light;
+	font-size: $size-24;
+	color: $white-color;
+	text-decoration: none solid $white-color;
+	text-align: center;
+}
+.productive-text-view {
+	margin-top: 40px;
+}
+.request-view {
+	text-align: center;
+	margin-top: 40px;
+}
+.inventory-image-view {
+	padding: 0px;
+}
+.dashboard-image-view {
+	padding: 0px;
+}
+.landing-one-view {
+	text-align: center;
+	padding: 0px;
+}
+@media screen and (max-width: 767px) {
+	.main-layout {
+		overflow-x: hidden;
+	}
+	.header-title {
+		display: none;
+	}
+	.padding-header {
+		padding: 20px;
+		display: flex;
+		justify-content: center;
+	}
+	.top-border {
+		padding: 0px;
+	}
+	.sale-text-one {
+		font-size: 8px;
+		height: unset;
+	}
+	.productive-text-view {
+		margin-top: 10px;
+	}
+	.large-title {
+		font-size: $size-20;
+	}
+	.middle-title {
+		font-size: 13px;
+	}
+	.landing-email-input {
+		width: 80%;
+	}
+	.email-view {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.request-view {
+		text-align: center;
+		margin-top: 10px;
+	}
+	.logo-title {
+		font-size: 26px;
+	}
+	.small-title {
+		font-size: $size-12;
+	}
+	.invite-text {
+		font-size: $size-14;
+	}
+	.invite-button {
+		font-size: 10px;
+		width: 100px;
+		height: 35px;
+		margin-left: 0px;
+	}
+	.recapture-text {
+		margin-top: 20px;
+		font-size: $size-14;
+	}
+	.inventory-text {
+		margin-top: 20px;
+		font-size: $size-14;
+	}
+	.seek-text {
+		margin-top: 20px;
+		font-size: $size-16;
+		height: 50px;
+	}
+	.landing-image-two {
+		width: 100%;
+	}
+	.inventory-image-view {
+		margin-left: 15px;
+		margin-right: 15px;
+		overflow: hidden;
+		position: relative;
+	}
+	.dashboard-image-view {
+		padding-left: 15px;
+		padding-right: 15px;
+		overflow: hidden;
+		width: 100%;
+	}
+	.landing-image-three {
+		height: auto;
+	}
+	.landing-image-three-repeat {
+		width: 200%;
+		height: auto;
+		right: 0;
+		bottom: 0;
+		position: absolute;
+	}
+	.landing-one-view {
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	.landing-image-one {
+		width: 70%;
+		height: auto;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.invite-text {
+		font-size: $size-20;
+	}
+	.recapture-text {
+		margin-top: 15px;
+		font-size: $size-18;
+	}
+	.inventory-text {
+		margin-top: 25px;
+		font-size: $size-18;
+	}
+	.request-view {
+		margin-top: 10px;
+	}
+	.productive-text-view {
+		margin-top: 50px;
+	}
+	.dashboard-image-view {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.inventory-image-view {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.recapture-text {
+		margin-top: 30px;
+		font-size: $size-22;
+	}
+	.inventory-text {
+		margin-top: 30px;
+		font-size: $size-22;
+	}
+	.request-view {
+		margin-top: 30px;
+	}
+	.productive-text-view {
+		margin-top: 90px;
+	}
+	.sale-text-one {
+		font-size: $size-12;
+	}
+}
